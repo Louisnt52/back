@@ -81,14 +81,6 @@ const swaggerDefinition = {
           name: {
             type: 'string',
             example: 'admin'
-          },
-          id: {
-            type: 'string',
-            example: '674a3f21c91b9e7d45f0b0ao'
-          },
-          name: {
-            type: 'string',
-            example: 'customer'
           }
         }
       },
