@@ -69,7 +69,109 @@ const swaggerDefinition = {
             example: ['user']
           }
         }
-      }
+      },
+      // ROLE
+      Role: {
+        type: 'object',
+        properties: {
+          id: {
+            type: 'string',
+            example: '674a3f21c91b9e7d45f0b812'
+          },
+          name: {
+            type: 'string',
+            example: 'admin'
+          },
+          id: {
+            type: 'string',
+            example: '674a3f21c91b9e7d45f0b0ao'
+          },
+          name: {
+            type: 'string',
+            example: 'customer'
+          }
+        }
+      },
+      RoleInput: {
+        type: 'object',
+        properties: {
+          name: {
+            type: 'string',
+            example: 'admin'
+          },
+          name: {
+            type: 'string',
+            example: 'customer'
+          },
+        }
+      },
+      Product: {
+        type: 'object',
+        properties: {
+          id: {
+            type: 'string',
+            example: '62f7a9b3c4d1e01234567890'
+          },
+          name: {
+            type: 'string',
+            example: 'Brand Sony Wireless Headphones'
+          },
+          description: {
+            type: 'string',
+            example: 'Bluetooth headphones with noise cancellation and 20-hour battery life.'
+          },
+          price: {
+            type: 'number',
+            example: 59.99
+          },
+          stock: {
+            type: 'number',
+            example: 150
+          },
+          category: {
+            type: 'string',
+            example: 'Electronic'
+          },
+          imageUrl: {
+            type: 'string',
+            example: 'https://example.com/images/product-headphones.jpg'
+          }
+        }
+      },
+      ProductInput: {
+        type: 'object',
+        properties: {
+          id: {
+            type: 'string',
+            example: '62f7a9b3c4d1e01234567890'
+          },
+          name: {
+            type: 'string',
+            example: 'Brand Sony Wireless Headphones'
+          },
+          description: {
+            type: 'string',
+            example: 'Bluetooth headphones with noise cancellation and 20-hour battery life.'
+          },
+          price: {
+            type: 'number',
+            example: 59.99
+          },
+          stock: {
+            type: 'number',
+            example: 150
+          },
+          category: {
+            type: 'string',
+            example: 'Electronic'
+          },
+          imageUrl: {
+            type: 'string',
+            example: 'https://example.com/images/product-headphones.jpg'
+          }
+        }
+      },
+      
     }
   },
   security: [{
